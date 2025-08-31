@@ -13,3 +13,5 @@ jobs:
       run: echo "Hello, GitHub Actions! y.akuzawa"
     - name: 現在時刻
       run: date
+    - name: メッセージ
+      run: echo "${{ secrets.ACTIONS_MESSAGE }}"
